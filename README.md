@@ -1,3 +1,5 @@
+# HEAL ITALIA PROJECT - Spoke 2
+![Pipeline](Logo-Header.png)
 # Lung Nodule Segmentation (2D)
 
 Deep learning-based 2D lung nodule segmentation on CT scans using slice-wise training.
