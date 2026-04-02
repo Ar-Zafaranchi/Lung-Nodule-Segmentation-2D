@@ -10,25 +10,26 @@ This repository contains the implementation of 2D segmentation models for detect
 
 ## Method
 
-* Slice-wise 2D training
+* Slice-wise processing of CT scans
 * Attention Residual U-Net architecture
-* Loss functions: Dice, BCE, and hybrid combinations
-* Preprocessed inputs from CT pipeline
+* Hybrid loss functions (Dice + BCE)
+* Preprocessed lung CT inputs
 
 ## Features
 
-* Data generator for slice-based training
-* Model training and evaluation scripts
-* Visualization of predictions
+* Data generator for 2D slices
+* Model training and evaluation
+* Prediction and visualization
 
-## Structure
+## Repository Structure
 
 ```text
-src/        # models, training, generators
+src/        # model, training, data generator
 notebooks/  # experiments and visualization
 results/    # outputs and figures
 ```
 
 ## Status
 
-Initial version. Code cleanup and documentation are in progress.
+Initial version uploaded for project submission. Further improvements and cleanup will be added.
+
